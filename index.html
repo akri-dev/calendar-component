@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendar">
+        <div class="calendar-header">
+            <button id="prev-month"><</button>
+            <div id="month-year">
+                <!-- Month and Year will be displayed here -->
+            </div>
+            <button id="next-month">></button>
+        </div>
+        <div class="calendar-body">
+            <div class="calendar-weekdays">
+                <div class="weekday">Sun</div>
+                <div class="weekday">Mon</div>
+                <div class="weekday">Tue</div>
+                <div class="weekday">Wed</div>
+                <div class="weekday">Thu</div>
+                <div class="weekday">Fri</div>
+                <div class="weekday">Sat</div>
+            </div>
+            <div class="calendar-days">
+                <!-- Days will be dynamically generated here -->
+            </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
